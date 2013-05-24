@@ -1,0 +1,13 @@
+{
+    "name": "w3c-domcore-errors",
+    "description": "An implementation of the standard DOMException and DOMError interface",
+    "version": "1",
+    "author": "Alexandre Morgaut (http://github.com/AMorgaut)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AMorgaut/w3c-domcore-errors.git"
+    },
+    "keywords": ["w3c", "standard", "polyfill", "domcore", "domerror", "domexception", "html", "html5", "wakanda", "node.js"],
+    "main": "./w3c-domcore-errors.js"
+    "license": "MIT"
+}
