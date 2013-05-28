@@ -7,7 +7,7 @@ These interfaces are useful if you want to provide standard Errors in your own A
 ##How to use##
 
 
-```
+```javascript
 var DOMException = require('w3c-domcore-errors').DOMException;
 var InvalidCharacterError = new DOMException('InvalidCharacterError');
 

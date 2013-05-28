@@ -1,17 +1,17 @@
 {
-    "name": "w3c-domcore-errors",
-    "description": "An implementation of the standard DOMException and DOMError interfaces",
-    "version": "1",
-    "author": "Alexandre Morgaut (http://github.com/AMorgaut)",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/AMorgaut/w3c-domcore-errors.git"
-    },
-    "implements": [
-    	"W3C/TR/DOM4/DOMException",
-    	"W3C/TR/DOM4/DOMError"
-    ],
-    "keywords": ["w3c", "standard", "polyfill", "domcore", "domerror", "domexception", "html", "html5", "wakanda", "node.js"],
-    "main": "./w3c-domcore-errors.js"
-    "license": "MIT"
+  "name": "w3c-domcore-errors",
+  "description": "An implementation of the standard DOMException and DOMError interfaces",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AMorgaut/w3c-domcore-errors.git"
+  },
+  "author": "Alexandre Morgaut <Alexandre.Morgaut@gmail.com> (http://github.com/AMorgaut)",
+  "main": "./w3c-domcore-errors.js",
+  "directories": {
+    "lib": "."
+  },
+  "engines": {
+    "node": "*"
+  }
 }
