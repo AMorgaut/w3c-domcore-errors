@@ -46,10 +46,27 @@ Name                         | Description                                      
 
 ##References##
 
-**DOM4** - **W3C Working Draft 6 December 2012** - **Section 3: Errors**
+###Current standards###
+
+####DOM4####
+
+W3C Working Draft 6 December 2012 - Section 3: Errors
 
 http://www.w3.org/TR/dom/#errors
 
-**WHATWG** - **DOM** - **Living Standard** - **Section 3: Errors**
+####WHATWG DOM####
 
-http://dom.spec.whatwg.org/#errors## License (MIT License) ##Copyright (c) 2013 Alexandre MorgautPermission is hereby granted, free of charge, to any person obtaining a copyof this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sellcopies of the Software, and to permit persons to whom the Software isfurnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included inall copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS ORIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THEAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHERLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS INTHE SOFTWARE.
+Living Standard - Section 3: Errors
+
+http://dom.spec.whatwg.org/#errors###Previous standards#######DOM Level 3 Core####
+
+W3C Recommendation 07 April 2004 - Section 1.4 Fundamental Interfaces: Core Module
+http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-BBACDC08####Document Object Model (DOM) Level 2 Core####
+
+W3C Recommendation 13 November, 2000 - Section 1.2. Fundamental Interfaces
+http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-BBACDC08
+
+####Document Object Model (Core) Level 1####
+
+W3C Recommendation 1 October, 1998 - Section 1.2. Fundamental Interfaceshttp://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-BBACDC08
+## License (MIT License) ##Copyright (c) 2013 Alexandre MorgautPermission is hereby granted, free of charge, to any person obtaining a copyof this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sellcopies of the Software, and to permit persons to whom the Software isfurnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included inall copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS ORIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THEAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHERLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS INTHE SOFTWARE.
