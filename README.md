@@ -1,8 +1,8 @@
 #W3C DOMCORE Errors#
 
-Provides the **DOMException** and **DOMError** W3C interfaces from the section 3 (Errors) of the **DOM4** akka **DOMCore** W3C Working Draft
+Provides the **DOMException** and **DOMError** W3C interfaces from the section 3 (Errors) of the **DOM4** akka **DOMCore** W3C Working Draft. These interfaces are also defined in the **WHATWG** HTML5 Living standard.
 
-This is useful if you want to provide standard Errors in your own APIs or in Polyfill libraries
+These interfaces are useful if you want to provide standard Errors in your own APIs or in Polyfill libraries
 
 ##How to use##
 
@@ -44,5 +44,12 @@ Name                         | Description                                      
 "DataCloneError"             | The object can not be cloned.                                                   | DATA_CLONE_ERR (25)
 "EncodingError"              | The encoding operation (either encoded or decoding) failed.                     | —
 
-##Reference##
-https://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html#domexception## License (MIT License) ##Copyright (c) 2013 Alexandre MorgautPermission is hereby granted, free of charge, to any person obtaining a copyof this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sellcopies of the Software, and to permit persons to whom the Software isfurnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included inall copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS ORIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THEAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHERLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS INTHE SOFTWARE.
+##References##
+
+**DOM4** - **W3C Working Draft 6 December 2012** - **Section 3: Errors**
+
+-> http://www.w3.org/TR/dom/#errors
+
+**WHATWG** - **DOM** - **Living Standard** - **Section 3: Errors**
+
+-> http://http://dom.spec.whatwg.org/#errors## License (MIT License) ##Copyright (c) 2013 Alexandre MorgautPermission is hereby granted, free of charge, to any person obtaining a copyof this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sellcopies of the Software, and to permit persons to whom the Software isfurnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included inall copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS ORIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THEAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHERLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS INTHE SOFTWARE.
