@@ -69,4 +69,12 @@ W3C Recommendation 13 November, 2000 - Section 1.2. Fundamental Interfaces
 ####Document Object Model (Core) Level 1####
 
 W3C Recommendation 1 October, 1998 - Section 1.2. Fundamental Interfaceshttp://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-BBACDC08
+
+
+##Browser support.. Can I Use...##
+
+If Browsers implement DOMException, **DOMError is most of the time not implemented**.
+I plan adapt this Polyfill to enhance Browser DOMError support, more specifically to provide DOMError as a constructor, as defined in the WHATWG edition of the specification.
+
+I posted a feature request on **caniuse.com** to detect potential future implementations, so feel free to support it: http://www.google.com/moderator/#8/e=ae425&q=ae425.6c295c&v=4
 ## License (MIT License) ##Copyright (c) 2013 Alexandre MorgautPermission is hereby granted, free of charge, to any person obtaining a copyof this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sellcopies of the Software, and to permit persons to whom the Software isfurnished to do so, subject to the following conditions:The above copyright notice and this permission notice shall be included inall copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS ORIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THEAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHERLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS INTHE SOFTWARE.
