@@ -1,7 +1,7 @@
 {
   "name": "w3c-domcore-errors",
   "description": "An implementation of the standard DOMException and DOMError interfaces",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/AMorgaut/w3c-domcore-errors.git"
