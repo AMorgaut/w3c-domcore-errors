@@ -1,4 +1,4 @@
-#W3C DOMCORE Errors#
+# W3C DOMCORE Errors #
 
 Provides the **DOMException** and **DOMError** W3C interfaces from the section 3 (Errors) of the **DOM4** akka **DOMCore** W3C Working Draft. These interfaces are also defined in the **WHATWG** HTML5 Living standard.
 
@@ -6,7 +6,7 @@ These interfaces are useful if you want to provide standard Errors in your own A
 
 This is available in NPM: https://npmjs.org/package/w3c-domcore-errors
 
-##How to use##
+## How to use ##
 
 
 ```javascript
@@ -21,7 +21,7 @@ function myStringHandler(data) {
 }
 ```
 
-##Error Names##
+## Error Names ##
 Name                         | Description                                                                     | Legacy code exception field value (if any)
 ---------------------------- | ------------------------------------------------------------------------------- | -----------------------------------------
 "IndexSizeError"             | The index is not in the allowed range.                                          |  INDEX_SIZE_ERR (1)                       
@@ -46,45 +46,45 @@ Name                         | Description                                      
 "DataCloneError"             | The object can not be cloned.                                                   | DATA_CLONE_ERR (25)
 "EncodingError"              | The encoding operation (either encoded or decoding) failed.                     | —
 
-##References##
+## References ##
 
-###Current standards###
+### Current standards ###
 
-####DOM4####
+#### DOM4 ####
 
 W3C Working Draft 6 December 2012 - Section 3: Errors
 
 http://www.w3.org/TR/dom/#errors
 
-####WHATWG DOM####
+#### WHATWG DOM ####
 
 Living Standard - Section 3: Errors
 
 http://dom.spec.whatwg.org/#errors
 
-###Previous standards###
+### Previous standards ###
 
-####DOM Level 3 Core####
+#### DOM Level 3 Core ####
 
 W3C Recommendation 07 April 2004 - Section 1.4 Fundamental Interfaces: Core Module
 
 http://www.w3.org/TR/DOM-Level-3-Core/core.html#ID-BBACDC08
 
-####Document Object Model (DOM) Level 2 Core####
+#### Document Object Model (DOM) Level 2 Core ####
 
 W3C Recommendation 13 November, 2000 - Section 1.2. Fundamental Interfaces
 
 http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-BBACDC08
 
 
-####Document Object Model (Core) Level 1####
+#### Document Object Model (Core) Level 1 ####
 
 W3C Recommendation 1 October, 1998 - Section 1.2. Fundamental Interfaces
 
 http://www.w3.org/TR/REC-DOM-Level-1/level-one-core.html#ID-BBACDC08
 
 
-##Browser support.. Can I Use...##
+## Browser support.. Can I Use... ##
 
 If Browsers implement DOMException, **DOMError is most of the time not implemented**.
 I plan adapt this Polyfill to enhance Browser DOMError support, more specifically to provide DOMError as a constructor, as defined in the WHATWG edition of the specification.
